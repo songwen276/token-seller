@@ -1,0 +1,12 @@
+mysql:
+  user: "root"
+  pwd: "root"
+  host: "127.0.0.1:3306"
+  db: "test"
+  maxOpenConns: 10
+  maxIdleConns: 5
+  connMaxLifetime: 60
+redis:
+  addr: "127.0.0.1:6379"
+  pwd: "123456"
+  db: 1
